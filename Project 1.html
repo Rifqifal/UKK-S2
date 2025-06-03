@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Undangan Pernikahan - Umar & Hana</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="Project 1.css" />
+</head>
+<body>
+    <div class="floral-bg"></div>
+    <div class="floating-flowers" id="floatingFlowers"></div>
+
+    <!-- Cover Section -->
+    <section class="cover" id="cover">
+        <h1>The Wedding of</h1>
+        <img src="bunga fixpng.png" alt="Bunga Hias" class="bunga-kiri">
+        <img src="bunga fixpng.png" alt="Bunga Hias" class="bunga-kanan">
+        <div class="couple-names">Umar & Hana</div>
+        <div class="date">22 Juni 2025</div>
+        <button class="open-invitation" onclick="openInvitation()">
+            <i class="fas fa-envelope-open"></i> Buka Undangan
+        </button>
+    </section>
+
+    <!-- Main Content -->
+    <div class="main-content" id="mainContent">
+        <!-- Profil Pengantin -->
+        <section class="section">
+            <h2>Mempelai</h2>
+            <div class="couple-profile">
+                <div class="profile-card">
+                    <div class="profile-img"><img src="mark lee.jpg" alt="Foto Khairil"></div>
+                    <h3>Khairil Umar</h3>
+                    <p>Putra dari Bapak Ahmad & Ibu Siti</p>
+                    <p>"Seorang engineer yang passionate dalam teknologi dan siap membangun masa depan bersama sang kekasih."</p>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-img"><img src="yeri.jpg" alt="Foto Hana"></div>
+                    <h3>Hana Lauren</h3>
+                    <p>Putri dari Bapak Gibran & Ibu Wati</p>
+                    <p>"Seorang guru yang mencintai anak-anak dan bermimpi membangun keluarga bahagia bersama pasangan hidupnya."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kutipan -->
+        <section class="section">
+            <h2>Quotes</h2>
+            <div class="quotes">
+                "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berfikir."
+                <br><br><strong>- QS. Ar-Rum: 21 -</strong>
+            </div>
+        </section>
+
+        <!-- Countdown -->
+        <section class="section">
+            <h2>Menuju Hari Bahagia</h2>
+            <div class="countdown">
+                <div class="countdown-display" id="countdown">
+                    <div class="countdown-item"><span class="number" id="days">00</span><span class="label">Hari</span></div>
+                    <div class="countdown-item"><span class="number" id="hours">00</span><span class="label">Jam</span></div>
+                    <div class="countdown-item"><span class="number" id="minutes">00</span><span class="label">Menit</span></div>
+                    <div class="countdown-item"><span class="number" id="seconds">00</span><span class="label">Detik</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Informasi Acara -->
+        <section class="section">
+            <h2>Informasi Acara</h2>
+            <div class="event-info">
+                <div class="event-card">
+                    <h3><i class="fas fa-ring"></i> Akad Nikah</h3>
+                    <div class="time">📅 22 Juni 2025</div>
+                    <div class="time">🕘 09:00 - 11:00 Wita</div>
+                    <div class="location">📍 Gedung Sultan Suriansyah, Banjarmasin, Kalimantan Selatan</div>
+                </div>
+                <div class="event-card">
+                    <h3><i class="fas fa-glass-cheers"></i> Resepsi</h3>
+                    <div class="time">📅 22 Juni 2025</div>
+                    <div class="time">🕘 12:00 - 16:00 Wita</div>
+                    <div class="location">📍 Gedung Sultan Suriansyah, Banjarmasin, Kalimantan Selatan</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Maps  -->
+         <section class="section">
+            <h2>Lokasi Acara</h2>
+            <div class="maps-container">
+                <div class="maps-placeholder">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.2067760479454!2d114.59046166908304!3d-3.29892556834538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de423a3fb5f2659%3A0x75f1cc80aad78356!2sGedung%20Sultan%20Suriansyah!5e0!3m2!1sid!2sid!4v1748836871466!5m2!1sid!2sid" 
+                    width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+                </div>
+            <div class="maps-button-wrapper">
+                <a href="https://maps.app.goo.gl/pJFXk8PFfq1d9Ds26" target="_blank" class="maps-button">
+                    📍 Lihat Petunjuk Arah
+                </a>
+            </div>
+            </div>
+         </section>
+
+        <!-- Galeri -->
+        <section class="section">
+            <h2>Galeri Foto</h2>
+            <div class="gallery">
+                <div class="gallery-item"><img src="Prewedding F & G.jpg" alt="Foto 1"></div>
+                <div class="gallery-item"><img src="Prewedding F & G (1).jpg" alt="Foto 2"></div>
+                <div class="gallery-item"><img src="prewed 4.jpg" alt="Foto 3"></div>
+                <div class="gallery-item"><img src="prewed 3.jpg" alt="Foto 4"></div>
+                <div class="gallery-item"><img src="prewed 1.jpg" alt="Foto 5"></div>
+                <div class="gallery-item"><img src="prewed 6.jpg" alt="Foto 6"></div>
+            </div>
+        </section>
+
+        <!-- RSVP -->
+        <section class="section">
+            <h2>Konfirmasi Kehadiran</h2>
+            <div class="rsvp-form">
+                <form id="rsvpForm">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Jumlah Tamu</label>
+                        <select id="guests" name="guests" required>
+                            <option value="">Pilih jumlah tamu</option>
+                            <option value="1">1 Orang</option>
+                            <option value="2">2 Orang</option>
+                            <option value="3">3 Orang</option>
+                            <option value="4">4 Orang</option>
+                            <option value="5+">5+ Orang</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Ucapan / Doa</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Kirim</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- Music Button -->
+    <div class="music-player" onclick="toggleMusic()">
+        <i class="fas fa-music"></i>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="Elliot James Reay - I Think They Call This Love (Lyrics) - GOLDY LYRICS.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="Project 1.js"></script>
+</body>
+</html>
